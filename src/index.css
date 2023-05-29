@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-display: swap;
+  font-family: GT Maru;
+  font-weight: 400;
+  src: url(/static/GT-Maru-Regular-ecdce04f58feb85a249da78baac1c644.woff2)
+      format("woff2"),
+    url(/static/GT-Maru-Regular-3c9ebcb1afc32ba3b369d4c7f3e0374b.woff)
+      format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: GT Maru;
+  font-style: italic;
+  font-weight: 400;
+  src: url(/static/GT-Maru-Regular-Oblique-6d14e0fdcc1c2be93a2fa40a682b1691.woff2)
+      format("woff2"),
+    url(/static/GT-Maru-Regular-Oblique-28d724200a2a84758e175814239633b4.woff)
+      format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: GT Maru;
+  font-weight: 700;
+  src: url(/static/GT-Maru-Bold-709d8313ba5aef2a331f89ded1ce6238.woff2)
+      format("woff2"),
+    url(/static/GT-Maru-Bold-d94f4fe20f75401f3a6362d1167a9587.woff)
+      format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: GT Maru;
+  font-style: italic;
+  font-weight: 700;
+  src: url(/static/GT-Maru-Bold-Oblique-05e95517ef64c416adb3a4e001da7d55.woff2)
+      format("woff2"),
+    url(/static/GT-Maru-Bold-Oblique-3fbce752a6723c1c4b8ea01018a2f879.woff)
+      format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: GT Maru;
+  font-weight: 900;
+  src: url(/static/GT-Maru-Black-4147caf1cfb9dcbb6ab1124a070adfa6.woff2)
+      format("woff2"),
+    url(/static/GT-Maru-Black-7c91595274f8cfadf07cf7bb09bfc4b3.woff)
+      format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: GT Maru;
+  font-style: italic;
+  font-weight: 900;
+  src: url(/static/GT-Maru-Black-Oblique-7b31c1d01faee86f92ba357ebb5ab617.woff2)
+      format("woff2"),
+    url(/static/GT-Maru-Black-Oblique-d1fbdaf158e74eaf4821bd3959a485d1.woff)
+      format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: GT Maru Mega;
+  src: url(/static/GT-Maru-Mega-VF-35d73a4a3042598be04414b74013c83c.woff2)
+      format("woff2"),
+    url(/static/GT-Maru-Mega-Midi-bb7a261d9e65d5932640262fb0e904ca.woff)
+      format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: GT Maru Mono;
+  src: url(/static/GT-Maru-Mono-Regular-d793a6e33d05cdc1b36410bbd51390f4.woff2)
+      format("woff2"),
+    url(/static/GT-Maru-Mono-Regular-afa44ccf30c26d2f6584a9f9766b21aa.woff)
+      format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: GT Maru Mono;
+  font-style: italic;
+  src: url(/static/GT-Maru-Mono-Regular-Oblique-7795f78b02250bd59d707626529fb430.woff2)
+      format("woff2"),
+    url(/static/GT-Maru-Mono-Regular-Oblique-94bea87cbc022165c0ddc5f5e1aa0d9d.woff)
+      format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: GT Maru Mono;
+  font-weight: 700;
+  src: url(/static/GT-Maru-Mono-Bold-f8e720ceff1e0650b53c92a07bc06207.woff2)
+      format("woff2"),
+    url(/static/GT-Maru-Mono-Bold-0be114764461c0e99fa303752ad892d9.woff)
+      format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: GT Maru Mono;
+  font-style: italic;
+  font-weight: 700;
+  src: url(/static/GT-Maru-Mono-Bold-Oblique-02ba3c175335dc1fcb59867b10562471.woff2)
+      format("woff2"),
+    url(/static/GT-Maru-Mono-Bold-Oblique-6d90fb03f0e33af799a98385982c60ab.woff)
+      format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: GT Maru Emoji;
+  src: url(/static/GT-Maru-Emoji-Black-and-White-3d3b7834f29867c2c0d0aa7fa5a1892b.woff2)
+      format("woff2"),
+    url(/static/GT-Maru-Emoji-Black-and-White-2b586c94ce81c8de1f0ccf3a81a48b45.woff)
+      format("woff");
+}
+
+body {
+  font-family: GT Maru, sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+@media (max-width: 1180px) {
+  body {
+    font-family: GT Maru, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
