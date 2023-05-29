@@ -1,8 +1,11 @@
+/* eslint-disable react-refresh/only-export-components */
 import { configureStore } from "@reduxjs/toolkit"
-import { userReducer } from "./slices/usersSlice"
+import { usersReducer } from "./slices/usersSlice"
 
 export const store = configureStore({
   reducer: {
-    users: userReducer,
+    users: usersReducer,
   },
 })
+
+export * from "./thunks/fetchUsers"
