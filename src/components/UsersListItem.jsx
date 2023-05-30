@@ -4,6 +4,7 @@ import Button from "./Button"
 import { removeUser } from "../store"
 import { useThunk } from "../hooks/use-thunk"
 import ExpandablePanel from "./ExpandablePanel"
+import AlbumList from "./AlbumList"
 
 export default function UsersListItem({ user }) {
   const [doRemoveUser, isLoading, error] = useThunk(removeUser)
@@ -22,5 +23,9 @@ export default function UsersListItem({ user }) {
     </>
   )
 
-  return <ExpandablePanel header={header}>CONTENT!!!</ExpandablePanel>
+  return (
+    <ExpandablePanel header={header}>
+      <AlbumList user={user} />
+    </ExpandablePanel>
+  )
 }
