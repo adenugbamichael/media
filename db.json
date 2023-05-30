@@ -17,6 +17,12 @@
       "id": 28
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 4,
+      "title": "Coding 100days",
+      "userId": 26
+    }
+  ],
   "photos": []
 }
