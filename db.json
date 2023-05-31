@@ -1,10 +1,6 @@
 {
   "users": [
     {
-      "name": "Ms. Sara Cummings",
-      "id": 25
-    },
-    {
       "name": "Juana Grimes",
       "id": 26
     },
@@ -19,14 +15,14 @@
   ],
   "albums": [
     {
-      "id": 4,
-      "title": "Coding 100days",
-      "userId": 26
-    },
-    {
       "userId": 26,
       "title": "Practical Granite Tuna",
       "id": 5
+    },
+    {
+      "userId": 26,
+      "title": "Handcrafted Wooden Shirt",
+      "id": 6
     }
   ],
   "photos": []
