@@ -16,13 +16,13 @@
   "albums": [
     {
       "userId": 26,
-      "title": "Electronic Wooden Bacon",
-      "id": 1
+      "title": "Tasty Concrete Keyboard",
+      "id": 4
     },
     {
       "userId": 26,
-      "title": "Generic Rubber Cheese",
-      "id": 2
+      "title": "Elegant Metal Ball",
+      "id": 5
     }
   ],
   "photos": []
