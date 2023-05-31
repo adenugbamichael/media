@@ -19,7 +19,7 @@ const photosApi = createApi({
           }
         },
       }),
-      addPhotos: builder.mutation({
+      addPhoto: builder.mutation({
         query: (album) => {
           return {
             method: "POST",
@@ -31,7 +31,7 @@ const photosApi = createApi({
           }
         },
       }),
-      removePhotos: builder.mutation({
+      removePhoto: builder.mutation({
         query: (photo) => {
           return {
             method: "DELETE",

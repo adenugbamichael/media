@@ -1,6 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 import { configureStore } from "@reduxjs/toolkit"
-import { setupListeners } from "@reduxjs/toolkit/dist/query"
+import { setupListeners } from "@reduxjs/toolkit/query"
 import { usersReducer } from "./slices/usersSlice"
 import { albumsApi } from "./apis/albumsApi"
 import { photosApi } from "./apis/photosApi"
@@ -17,6 +17,7 @@ export const store = configureStore({
       .concat(photosApi.middleware)
   },
 })
+
 setupListeners(store.dispatch)
 
 export * from "./thunks/fetchUsers"
@@ -27,7 +28,6 @@ export {
   useAddAlbumMutation,
   useRemoveAlbumMutation,
 } from "./apis/albumsApi"
-
 export {
   useFetchPhotosQuery,
   useAddPhotoMutation,

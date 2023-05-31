@@ -3,27 +3,40 @@
     {
       "name": "Juana Grimes",
       "id": 26
-    },
-    {
-      "name": "Brendan Sauer",
-      "id": 27
-    },
-    {
-      "name": "Wilfred Lindgren",
-      "id": 28
     }
   ],
   "albums": [
     {
       "userId": 26,
-      "title": "Tasty Concrete Keyboard",
+      "title": "Elegant Metal Ball",
+      "id": 5
+    },
+    {
+      "userId": 27,
+      "title": "Practical Soft Soap",
+      "id": 6
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 5,
+      "url": "https://loremflickr.com/150/150/abstract?lock=8818382669348864",
+      "id": 3
+    },
+    {
+      "albumId": 6,
+      "url": "https://loremflickr.com/640/480/abstract?lock=370690106589184",
       "id": 4
     },
     {
-      "userId": 26,
-      "title": "Elegant Metal Ball",
+      "albumId": 5,
+      "url": "https://loremflickr.com/150/150/abstract?lock=5391925181939712",
       "id": 5
+    },
+    {
+      "albumId": 5,
+      "url": "https://loremflickr.com/150/150/abstract?lock=3380450946973696",
+      "id": 6
     }
-  ],
-  "photos": []
+  ]
 }
