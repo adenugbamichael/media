@@ -9,6 +9,7 @@ import Button from "./Button"
 
 export default function AlbumList({ user }) {
   const { data, error, isLoading } = useFetchAlbumsQuery(user)
+
   const [addAlbum, results] = useAddAlbumMutation()
 
   const handleAddAlbum = () => {
